@@ -7,11 +7,13 @@ int numberB = int.Parse(Console.ReadLine()!);
 
 if (numberA > numberB)
 {
-    Console.WriteLine("biggest number is " + numberA);
+    Console.WriteLine("the biggest number is " + numberA);
+    Console.WriteLine("the lowest number is " + numberB);
 }
 else if (numberA < numberB)
 {
-    Console.WriteLine("biggest number is " + numberB);
+    Console.WriteLine("the biggest number is " + numberB);
+    Console.WriteLine("the lowest number is " + numberA);
 }
 else 
 {
